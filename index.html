@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine Cartel Website</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.scss">
+
+</head>
+
+<body>
+    <!-- HEADER/ NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark nav-cust-styles">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Caffeine Cartel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+    <div class="hero-background-image">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/coffee-logo-circle.png" class="img-fluid hero-logo mt-3" alt="Caffeine Cartel Logo">
+                </div>
+                <div class="col-12 offset-3">
+                    <h1 class="py-5 mt-5">CAFFEINE CARTEL</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row" id="location">
+            <!-- LOCATION CARD -->
+            <div class="col-12">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        LOCATION
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 col-lg-4">
+                                <p>Surrounded by tall buildings and an giant park, the Caffeine Cartel is the pefect
+                                    spot to escape the hustle and bustle of our great city.</p>
+                                <address>3790 S Coffee St. <br>
+                                    Coffee Town, WA, 90272</address>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <div class="ratio ratio-16x9">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5326.867875414502!2d-123.43721158827294!3d48.1211544521848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548fb1a8b8a8939f%3A0x96d13f19cd14f1f5!2sField%20Arts%20%26%20Events%20Hall!5e0!3m2!1sen!2sus!4v1757569025893!5m2!1sen!2sus"
+                                        class="img-fluid" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- MENU CARD AND MODAL -->
+            <div class="col-12 mb-5" id="menu">
+                <div class="card mt-5 cust-background">
+                    <div class="card-header">
+                        <h3>MENU</h3>
+                    </div>
+                    <div class="card-body text-center">
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#menuModal">
+                            Check out our menu!
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="menuModalLabel">Check out our menu!</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        
+                                        <table class="table table-striped profile-table-background-color">
+
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        Name
+                                                    </th>
+                                                    <th>
+                                                        Sizes
+                                                    </th>
+                                                    <th>
+                                                        Price
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        Drip Coffee
+                                                    </td>
+                                                    <td>
+                                                        sm-md-lg
+                                                    </td>
+                                                    <td>
+                                                        <strong>$3:30</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Latte
+                                                    </td>
+                                                    <td>
+                                                        sm-md-lg
+                                                    </td>
+                                                    <td>
+                                                        <strong>$4:50</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Cold Brew
+                                                    </td>
+                                                    <td>
+                                                        md-lg
+                                                    </td>
+                                                    <td>
+                                                        <strong>$6.00</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Mochachinno
+                                                    </td>
+                                                    <td>
+                                                        md-lg
+                                                    </td>
+                                                    <td>
+                                                        <strong>$7.00</strong>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <img src="images/coffee-logo-transparent.png" alt="Coffee Logo" width="80" class="mb-3">
+            <p class="mb-2">&copy; 2025 Caffeine Cartel. All rights reserved.</p>
+            <a href="https://instagram.com" target="_blank" class="text-light fs-4">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

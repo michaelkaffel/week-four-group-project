@@ -1,0 +1,32 @@
+body {
+    background-color: #FFF3CF;
+    font-family: "Rubik Mono One", Arial, sans-serif;
+}
+
+.hero-background-image {
+    background-image: url(images/coffee-shop-hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: black solid 3px;
+    height: 100vh;
+}
+
+.hero-logo {
+    max-width: 50%;
+}
+
+h1 {
+    background-color: #FE8261;
+    color: #FDEBC8;
+    max-width: 50%;
+    
+}
+
+.nav-cust-styles {
+    background-color: #FE8261;
+    color: #FDEBC8;
+}
+
+.card-header {
+    background-color: #FE8261;
+}
