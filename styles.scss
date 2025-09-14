@@ -1,3 +1,7 @@
+* {
+    border: solid red 1px;
+}
+
 body {
     background-color: #FFF3CF;
     font-family: "Rubik Mono One", Arial, sans-serif;
@@ -22,11 +26,33 @@ h1 {
     
 }
 
+h2 {
+    color: #FDEBC8;
+}
+
 .nav-cust-styles {
     background-color: #FE8261;
     color: #FDEBC8;
 }
 
+.cust-menu-btn {
+    background-color: #FE8261;
+    color: #FDEBC8;
+}
+
+.cust-menu-btn:hover {
+    background-color: #009DDD;
+}
+
+.modal-header,
 .card-header {
     background-color: #FE8261;
+}
+
+.cust-footer-bg-color {
+    background-color: #009DDD;
+}
+
+.footer-logo {
+    width: 40px;
 }
